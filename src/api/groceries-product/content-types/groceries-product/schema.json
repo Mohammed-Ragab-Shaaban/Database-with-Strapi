@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groceries_cats",
+  "info": {
+    "singularName": "groceries-product",
+    "pluralName": "groceries-cats",
+    "displayName": "Groceries-Cat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "rate": {
+      "type": "float"
+    },
+    "state": {
+      "type": "boolean"
+    },
+    "product_Number": {
+      "type": "integer"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Reviews": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

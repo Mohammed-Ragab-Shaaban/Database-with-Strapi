@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "juices",
+  "info": {
+    "singularName": "juice",
+    "pluralName": "juices",
+    "displayName": "Juices",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "state": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "float"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Reviews": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
